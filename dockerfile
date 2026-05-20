@@ -6,6 +6,6 @@ USER sujith
 RUN npm install
 COPY --chown=sujith:sujith . .
 RUN npm run build
-EXPOSE 4000
+EXPOSE 3000
 CMD ["npm","start"]
 
